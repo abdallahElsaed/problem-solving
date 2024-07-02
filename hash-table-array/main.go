@@ -8,5 +8,10 @@ func main() {
 	// fmt.Println(containsDuplicate(nums))
 
 	//! seconde problem (Valid Anagram)
-	fmt.Println(isAnagram("nagaram" , "anagram"))
+	// fmt.Println(isAnagram("nagaram" , "anagram"))
+
+	//! third problem twoSum
+	nums := []int{3,4, 2, 1}
+	fmt.Println(twoSum(nums ,6))
+	
 }
