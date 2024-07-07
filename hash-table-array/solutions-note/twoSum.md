@@ -1,6 +1,6 @@
 # Hash Table and Array problems
 
-## Contains Duplicate (1)
+## Two Sum
 [problem link](https://leetcode.com/problems/two-sum/)
 
 ### What do you need in this problem?
@@ -19,7 +19,6 @@
 
 ### code:
 
-    ```go
         func twoSum(nums []int, target  int) []int {
 	        numMap := make(map[int]int)
             for i, num := range nums {
@@ -31,5 +30,4 @@
             }
             return nil
         }
-    ```
 

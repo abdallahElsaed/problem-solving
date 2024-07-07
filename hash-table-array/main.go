@@ -11,7 +11,11 @@ func main() {
 	// fmt.Println(isAnagram("nagaram" , "anagram"))
 
 	//! third problem twoSum
-	nums := []int{3,4, 2, 1}
-	fmt.Println(twoSum(nums ,6))
+	// nums := []int{3,4, 2, 1}
+	// fmt.Println(twoSum(nums ,6))
+
+	//! Fourth Problem group anagrams
+	strs := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
+	fmt.Println(groupAnagrams(strs))
 	
 }
