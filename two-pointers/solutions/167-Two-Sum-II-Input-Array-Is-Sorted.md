@@ -6,6 +6,10 @@
 ### What do you need in this problem?
 * You have an sorted array and number. you want to get the two indexed number to sum those to get the target.
 
+### Notes:
+* sorted in non-decreasing order => this mean the number can repeated but in different indexes. 
+* You may not use the same element twice => this mean you can't add the number twice for that i make this condition on loop (l < r)
+
 ### Solution:
 * you use two pointer to solve this problem. one on the left side and other in right side. and you move two pointer based on condition.
 #### Steps:

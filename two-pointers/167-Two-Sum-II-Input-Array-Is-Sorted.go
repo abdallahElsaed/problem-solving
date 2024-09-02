@@ -12,10 +12,10 @@ func twoSum(numbers []int, target int) []int {
 			return []int{l + 1, r + 1}
 		}
 		if sum > target {
-			r -= 1
+			r--
 		}
 		if sum < target {
-			l += 1
+			l++
 		}
 	}
 	return nil
