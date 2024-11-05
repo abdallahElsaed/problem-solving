@@ -11,6 +11,5 @@ func main() {
 	//167. Two Sum II - Input Array Is Sorted
 	fmt.Println(twoSum([]int{5, 25, 75}, 100))
 
-	//
-	
+
 }
